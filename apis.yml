@@ -1,7 +1,17 @@
 aid: ciao
 name: Ciao
-description: Ciao is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ciao (meetciao.com) is a home-sharing platform that connects travelers with
+  locals, letting members rent homes at local rates within a private,
+  trust-based community of travellers while homeowners earn income from their
+  properties. The service emphasizes affordability, community trust, and
+  authentic local experiences over commercial short-let alternatives, and
+  operates across major European cities including London, Lisbon, Berlin,
+  Amsterdam, Paris, and Tbilisi with 20,000+ community members and 1,000+
+  available homes. Ciao is a Seedcamp portfolio company; this profile was added
+  to the API Evangelist network as an enrichment lead. Ciao is a consumer
+  mobile/web product and publishes no public API, developer portal, or
+  specifications at this time.
 url: https://raw.githubusercontent.com/api-evangelist/ciao/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.meetciao.com/seo/og-flex-livin.jpg
 tags:
 - Company
+- Travel
+- Home Sharing
+- Hospitality
+- Community
+- Marketplace
+- Consumer
+- Seedcamp
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ciao-domain-security.yml
 - type: Website
-  url: http://meetciao.com
+  url: https://meetciao.com
+- type: Blog
+  url: https://blog.meetciao.com
+- type: TermsOfService
+  url: https://meetciao.com/legal/terms
+- type: PrivacyPolicy
+  url: https://meetciao.com/legal/privacy-policy
+- type: Pricing
+  url: https://meetciao.com/pricing
+- type: SignUp
+  url: https://meetciao.com/download
+- type: Support
+  url: mailto:support@meetciao.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
